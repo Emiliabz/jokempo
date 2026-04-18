@@ -1,80 +1,39 @@
-# Jokempo - Pedra, Papel e Tesoura
+﻿# JoKenPo (Pedra, Papel, Tesoura)
 
-Um jogo interativo em Python de Pedra, Papel e Tesoura contra o computador.
+ImplementaÃ§Ã£o do clÃ¡ssico jogo Pedra, Papel, Tesoura com inteligÃªncia artificial.
 
-## Funcionalidades
+## ðŸŽ¯ DescriÃ§Ã£o
 
-- ✅ Jogo contra o computador
-- ✅ Escolha aleatória do computador
-- ✅ Animação de "JO-KEM-PÔ" com delay
-- ✅ Validação de jogadas
-- ✅ Determinação de vencedor
-- ✅ Interface simples e intuitiva
+Jogo interativo onde o jogador compete contra o computador em rodadas de Pedra, Papel, Tesoura com placar acumulado.
 
-## Regras do Jogo
+## ðŸ› ï¸ Tecnologias Utilizadas
 
-- **Pedra** vence **Tesoura**
-- **Papel** vence **Pedra**
-- **Tesoura** vence **Papel**
+- **Python 3** - Linguagem de programaÃ§Ã£o
+- **Random** - Escolha aleatÃ³ria do computador
 
-## Como Executar
+## ðŸš€ ExecuÃ§Ã£o
 
-```bash
+`ash
+# Executar o jogo
 python jokempo.py
-```
+`
 
-## Menu
+## ðŸ“‹ Regras
 
-```
-Vem jogar Jokempo comigo!
-Suas opcoes:
-[0] Pedra
-[1] Papel
-[2] Tesoura
-```
+- Pedra ganha de Tesoura
+- Tesoura ganha de Papel
+- Papel ganha de Pedra
+- Empate se escolhas forem iguais
 
-Digite o número da sua escolha (0, 1 ou 2) e o computador fará sua escolha aleatória.
+## ðŸ’¡ Como Jogar
 
-## Exemplo de Execução
+`
+=== JOKEMPO ===
+Escolha: (1) Pedra (2) Papel (3) Tesoura
+VocÃª escolheu: Papel
+Computador escolheu: Pedra
+VocÃª ganhou!
+Placar: VocÃª 1 x 0 Computador
+`
 
-```
-Vem jogar Jokempo comigo!
-Suas opcoes:
-[0] Pedra
-[1] Papel
-[2] Tesoura
-Qual eh a sua jogada? 0
-
---------------------
-JO
-KEM
-PO!
---------------------
-O computador escolheu Tesoura
-O jogador escolheu Pedra
---------------------
-JOGADOR VENCEU!
-```
-
-## Resultados Possíveis
-
-- **EMPATE!** - Ambos fizeram a mesma escolha
-- **JOGADOR VENCEU!** - Sua escolha vence a do computador
-- **COMPUTADOR VENCEU!** - A escolha do computador vence a sua
-
-## Bibliotecas Utilizadas
-
-- `random.randint` - Escolha aleatória do computador
-- `time.sleep` - Delay para efeito dramático na animação
-
-## Requisitos
-
-- Python 3.x
-
-## Autor
-
-Criado como exercício de programação em Python.
-
-## Licença
-
-Livre para uso educacional.
+---
