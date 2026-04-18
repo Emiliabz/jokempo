@@ -1,39 +1,21 @@
-﻿# JoKenPo (Pedra, Papel, Tesoura)
+﻿# jokempo
 
-ImplementaÃ§Ã£o do clÃ¡ssico jogo Pedra, Papel, Tesoura com inteligÃªncia artificial.
+Projeto desenvolvido durante meus estudos em AnÃ¡lise e Desenvolvimento de Sistemas (ADS).
 
 ## ðŸŽ¯ DescriÃ§Ã£o
 
-Jogo interativo onde o jogador compete contra o computador em rodadas de Pedra, Papel, Tesoura com placar acumulado.
+AplicaÃ§Ã£o prÃ¡tica demonstrando conceitos aprendidos em programaÃ§Ã£o.
 
 ## ðŸ› ï¸ Tecnologias Utilizadas
 
 - **Python 3** - Linguagem de programaÃ§Ã£o
-- **Random** - Escolha aleatÃ³ria do computador
 
-## ðŸš€ ExecuÃ§Ã£o
+## ðŸš€ Como Executar
 
 `ash
-# Executar o jogo
-python jokempo.py
-`
-
-## ðŸ“‹ Regras
-
-- Pedra ganha de Tesoura
-- Tesoura ganha de Papel
-- Papel ganha de Pedra
-- Empate se escolhas forem iguais
-
-## ðŸ’¡ Como Jogar
-
-`
-=== JOKEMPO ===
-Escolha: (1) Pedra (2) Papel (3) Tesoura
-VocÃª escolheu: Papel
-Computador escolheu: Pedra
-VocÃª ganhou!
-Placar: VocÃª 1 x 0 Computador
+python main.py
 `
 
 ---
+
+*Desenvolvido por EmÃ­lia - Estudante de ADS*
